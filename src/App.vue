@@ -30,6 +30,15 @@ export default Vue.extend({
   font-size: 16px !important;
   color: #a9b1bd;
 }
+
+.v-main {
+  padding-top: 213px !important;
+}
+@media (max-width: 800px) {
+  .v-main {
+    padding-top: 269px !important;
+  }
+}
 .container {
   max-width: 1365px !important;
   margin: 0 auto !important;
